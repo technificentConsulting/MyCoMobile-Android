@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--For all properties see: http://developer.android.com/guide/topics/resources/menu-resource.html-->
+     <!--android:icon="@drawable/party"-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+     android:id="@+id/menuShopMyCo"
+     android:title="Body Products"
+     android:orderInCategory="101"
+     android:showAsAction="always">
+  </item>
+  <item
+   android:id="@+id/menuShopHerbs"
+        android:title="Herb/Seed Shop"
+   android:orderInCategory="101"
+   android:showAsAction="always">
+  </item>
+  <item
+   android:id="@+id/menuShopBoutique"
+        android:title="Clothing Boutique"
+   android:orderInCategory="101"
+   android:showAsAction="always">
+  </item>
+</menu>

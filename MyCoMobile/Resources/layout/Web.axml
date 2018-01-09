@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:forms="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="LayoutSamples.StackLayoutDemo"
+    Title="StackLayout Demo">
+    <ContentPage.Content>
+        <StackLayout
+            Spacing="10"
+            x:Name="layout">
+            <Button
+                Text="Back"
+                VerticalOptions="Start"
+                HorizontalOptions="FillAndExpand" />
+            <Button
+                Text="Forward"
+                VerticalOptions="Start"
+                HorizontalOptions="FillAndExpand" />
+            <android.webkit.WebView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mainWebView" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

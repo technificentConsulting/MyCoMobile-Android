@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoMobile", "MyCoMobile\MyCoMobile.csproj", "{643D5E1A-9EA1-4EC3-911B-AE864A8F20DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clsCircleMenu", "clsCircleMenu\clsCircleMenu.csproj", "{2DF1C9B3-9B51-4B58-A199-A97399AE03CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{643D5E1A-9EA1-4EC3-911B-AE864A8F20DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643D5E1A-9EA1-4EC3-911B-AE864A8F20DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643D5E1A-9EA1-4EC3-911B-AE864A8F20DB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{643D5E1A-9EA1-4EC3-911B-AE864A8F20DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643D5E1A-9EA1-4EC3-911B-AE864A8F20DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643D5E1A-9EA1-4EC3-911B-AE864A8F20DB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2DF1C9B3-9B51-4B58-A199-A97399AE03CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF1C9B3-9B51-4B58-A199-A97399AE03CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF1C9B3-9B51-4B58-A199-A97399AE03CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF1C9B3-9B51-4B58-A199-A97399AE03CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B150B4C3-BEDB-4B46-B23F-25659FD126D3}
+	EndGlobalSection
+EndGlobal

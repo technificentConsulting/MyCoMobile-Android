@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">MyCoMobile</string>
+  <string name="imglauncher">HealthDir</string>
+  <string name="launcher_label">Launcher</string>
+  <string name="hello_world">Hello world!</string>
+  <string name="btnShopMyco">Natural Health &amp; Body Products</string>
+  <string name="btnShopHerbs">Natural &amp; Organic Herbs</string>
+  <string name="btnShopBoutique">Unique, Handcrafted Clothing/Shoes/Jewelry</string>
+  <string name="btn4">SHOP MYCO</string>
+  <string name="btn5">SHOP MYCO</string>
+  <string name="btn6">SHOP MYCO</string>
+</resources>

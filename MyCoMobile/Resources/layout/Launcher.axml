@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/launchCenterview"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:minWidth="25px"
+    android:minHeight="25px">
+<!--<RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.70"
+        android:gravity="center"
+        android:id="@+id/launchMainLayout">
+        <ImageView
+            android:background="@drawable/ani1_logo"
+            android:layout_width="148.0dp"
+            android:layout_height="142.5dp"
+            android:id="@+id/ani1"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:paddingRight="30dp"
+            android:scaleType="fitCenter" />
+        <ImageView
+            android:background="@drawable/ani2_myco"
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:id="@+id/ani2"
+            android:layout_gravity="right"
+            android:scaleType="fitCenter"
+            android:gravity="right"
+            android:paddingLeft="0dp"
+            android:paddingRight="5dp"
+            android:layout_toRightOf="@+id/ani1"
+            android:layout_marginTop="15dp"
+            android:adjustViewBounds="true" />
+        <ImageView
+            android:background="@drawable/ani3_creations"
+            android:layout_width="196dp"
+            android:layout_height="56dp"
+            android:id="@+id/ani3"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:layout_toRightOf="@+id/ani2"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true" />
+        <ImageView
+            android:background="@drawable/ani4_creating"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:id="@+id/ani4"
+            android:scaleType="fitCenter"
+            android:layout_toRightOf="@+id/ani1"
+            android:layout_below="@+id/ani2"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="5dp"
+            android:fillAfter="true"
+            android:adjustViewBounds="true" />
+        <ImageView
+            android:background="@drawable/ani5_injoy"
+            android:layout_width="38dp"
+            android:layout_height="13dp"
+            android:id="@+id/ani5"
+            android:scaleType="fitCenter"
+            android:layout_toRightOf="@+id/ani1"
+            android:paddingTop="80dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="50dp"
+            android:layout_below="@+id/ani4"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="10dp" />
+        <ImageView
+            android:background="@drawable/ani7_innerstand"
+            android:layout_width="100dp"
+            android:layout_height="13dp"
+            android:id="@+id/ani7"
+            android:scaleType="fitCenter"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/ani5"
+            android:layout_below="@+id/ani4"
+            android:adjustViewBounds="true" />
+        <ImageView
+            android:background="@drawable/ani6_imagine"
+            android:layout_width="58dp"
+            android:layout_height="13dp"
+            android:id="@+id/ani6"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="30dp"
+            android:layout_below="@+id/ani4"
+            android:layout_toRightOf="@+id/ani7"
+            android:adjustViewBounds="true" />
+    </RelativeLayout>-->
+    <VideoView
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:id="@+id/vwIntroVideo"
+        android:layout_gravity="center"
+        android:minWidth="200dp"
+        android:layout_marginLeft="70.3dp"
+        android:layout_marginRight="35.7dp" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="appthemewhite_background">#ff400952</color>
+<style name="AppTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+  <style name="AppThemeWhite" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:colorBackground">@color/appthemewhite_background</item>
+    <item name="android:windowBackground">?android:attr/colorBackground</item>
+  </style>
+
+  <style name="Splash" parent="@android:style/Theme.Holo.NoActionBar">
+    <item name="android:windowBackground">@drawable/gradient</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+  </style>
+</resources>
